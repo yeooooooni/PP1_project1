@@ -1,4 +1,4 @@
-package org.example;
+package com.example.lab1;
 
 //java 모두의 super class는 Object
 public class Student {
