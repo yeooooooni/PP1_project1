@@ -32,16 +32,16 @@ public class WordCRUD implements ICRUD{
         list.add(tmp);
         System.out.println("새 단어가 단어장에 추가되었습니다!");
     }
-//    public void listAll(){
-//        System.out.println("--------------------------------");
-//
-//        for(int i=0; i<list.size(); i++){
-//            System.out.print((i+1) + " ");
-//            System.out.println(list.get(i).toString());
-//        }
-//
-//        System.out.println("--------------------------------");
-//    }
+    public void listAll(){
+        System.out.println("--------------------------------");
+
+        for(int i=0; i<list.size(); i++){
+            System.out.print((i+1) + " ");
+            System.out.println(list.get(i).toString());
+        }
+
+        System.out.println("--------------------------------");
+    }
     @Override
     public int update(Object obj) {
         return 0;

@@ -52,14 +52,14 @@ public class Word {
     //TODO
     //to string override
 
-//    @Override
-//    public String toString() {
-//        String slevel = "";
-//        for(int i=0; i<level; i++){
-//            slevel += "*";
-//        }
-//        String list_string = String.format("%-3s", slevel) +
-//                String.format("%15s", word)+ " " + mean;
-//        return list_string;
-//    }
+    @Override
+    public String toString() {
+        String slevel = "";
+        for(int i=0; i<level; i++){
+            slevel += "*";
+        }
+        String list_string = String.format("%-3s", slevel) +
+                String.format("%15s", word)+ " " + mean;
+        return list_string;
+    }
 }

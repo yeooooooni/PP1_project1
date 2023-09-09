@@ -40,7 +40,7 @@ word CRUD를 사용한
                     System.out.println("프로그램 종료! 다음에 만나요~");
                     break;
                 case 1:
-//                    wordCRUD.listAll();
+                    wordCRUD.listAll();
                     break;
                 case 2 :
                     break;
