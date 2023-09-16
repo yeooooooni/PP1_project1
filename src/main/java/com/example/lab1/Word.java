@@ -62,4 +62,8 @@ public class Word {
                 String.format("%15s", word)+ " " + mean;
         return list_string;
     }
+
+    public String toFileString(){
+        return this.level + "|" + word + "|" + mean;
+    }
 }

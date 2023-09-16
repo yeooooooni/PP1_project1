@@ -32,6 +32,8 @@ word CRUD를 사용한
         int menu;
         boolean run = true;
 
+        wordCRUD.load_file();
+
         while(run){
             menu = selectMenu();
             switch (menu){
@@ -43,11 +45,21 @@ word CRUD를 사용한
                     wordCRUD.listAll();
                     break;
                 case 2 :
+                    wordCRUD.searchLevel();
                     break;
                 case 3:
                     break;
                 case 4:
                     wordCRUD.addWord();
+                    break;
+                case 5:
+                    wordCRUD.updateItem();
+                    break;
+                case 6:
+                    wordCRUD.deleteItem();
+                    break;
+                case 7:
+                    wordCRUD.save_file();
                     break;
             }
         }
