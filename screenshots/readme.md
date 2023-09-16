@@ -1,6 +1,6 @@
 1. 파일 읽기 기능입니다.
 <img
-src="screenshots/스크린샷 2023-09-16 오후 9.30.58.png" width="30%">
+src="https://github.com/yeooooooni/PP1_project1/blob/main/screenshots/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202023-09-16%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%209.30.58.png" width="30%">
 
 
 
