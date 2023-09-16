@@ -48,6 +48,7 @@ word CRUD를 사용한
                     wordCRUD.searchLevel();
                     break;
                 case 3:
+                    wordCRUD.search_word();
                     break;
                 case 4:
                     wordCRUD.addWord();
